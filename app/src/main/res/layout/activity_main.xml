@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ScrollView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:paddingBottom="50dp"
+                android:orientation="vertical"
+                >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <EditText
+                        android:id="@+id/name"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="First name"
+                        android:inputType="text"
+                        android:paddingLeft="20dp"
+                        android:textColor="#000000"
+                        android:textCursorDrawable="@drawable/blackpipe"
+
+                        android:layout_marginTop="20dp"/>
+
+                    <ImageButton
+                        android:id="@+id/name_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/save"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="5dp"
+                        android:background="@null"
+                        android:text="Button"/>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <EditText
+                        android:id="@+id/phone"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Phone"
+                        android:inputType="phone"
+                        android:paddingLeft="20dp"
+                        android:textColor="#000000"
+                        android:textCursorDrawable="@drawable/blackpipe"
+
+                        android:layout_marginTop="20dp"/>
+
+                    <ImageButton
+                        android:id="@+id/phn_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/save"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="5dp"
+                        android:background="@null"
+                        android:text="Button"/>
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <EditText
+                        android:id="@+id/email"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Email Adrress"
+                        android:textColor="#000000"
+
+                        android:paddingLeft="20dp"
+                        android:textCursorDrawable="@drawable/blackpipe"
+
+                        android:layout_marginTop="20dp"/>
+
+                    <ImageButton
+                        android:id="@+id/email_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/save"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="5dp"
+                        android:background="@null"
+                        android:text="Button"/>
+
+
+
+                </RelativeLayout>
+
+
+
+
+
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <EditText
+                        android:id="@+id/address"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Adrress"
+                        android:inputType="text"
+                        android:paddingLeft="20dp"
+                        android:textColor="#000000"
+                        android:textCursorDrawable="@drawable/blackpipe"
+                        android:layout_marginTop="20dp"/>
+
+                    <ImageButton
+                        android:id="@+id/adrress_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/save"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="5dp"
+                        android:textColor="#000000"
+                        android:background="@null"
+                        android:text="Button"/>
+
+                </RelativeLayout>
+
+                <Button
+                    android:id="@+id/save"
+                    android:layout_width="200dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="40dp"
+                    android:textColor="#ffffff"
+
+                    android:background="@drawable/mybutton"
+                    android:text="Save" />
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+        </ScrollView>
+    </RelativeLayout>
+
+
+</LinearLayout>
